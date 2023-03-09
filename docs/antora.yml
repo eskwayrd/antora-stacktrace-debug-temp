@@ -1,0 +1,5 @@
+name: test
+title: Test Stacktrace
+version: current
+nav:
+- modules/ROOT/nav.adoc

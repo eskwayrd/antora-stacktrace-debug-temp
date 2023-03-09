@@ -1,0 +1,20 @@
+{
+  "name": "temp-antora-stacktrace-debug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@personal:eskwayrd/antora-stacktrace-debug-temp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@antora/cli": "3.1.2",
+    "@antora/site-generator": "3.1.2"
+  }
+}

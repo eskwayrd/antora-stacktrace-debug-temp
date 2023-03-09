@@ -1,0 +1,24 @@
+site:
+  title: Testing Stacktrace
+  start_page: test:ROOT:index.adoc
+content:
+  sources:
+  - url: ./
+    branches: HEAD
+    start_path: docs
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    linksattrs: ''
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+output:
+  dir: ./build
+antora:
+  extensions:
+  - require: './broken_extension'
+    enabled: true
